@@ -1,0 +1,52 @@
+
+/* tag selector */
+/* form h1 {
+    color:green;
+} */
+/* class selector */
+/* .login-container{
+    background: yellow;
+} */
+/* id selectors */
+/* #login{
+    background: blue;
+} */
+
+
+.login-container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.form-conatiner{
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    height: calc(50%);
+    width:350px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.input-containers{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    align-items: start;
+    justify-content: center;
+}
+.button{
+    background-color: yellow;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+.button:hover{
+    background: red;
+    cursor: pointer;
+}
